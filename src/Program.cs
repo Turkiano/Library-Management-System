@@ -1,6 +1,11 @@
 ﻿internal class Program
 {
-    private static void Main()
-    {
+
+
+  
+
+
+    public class Library {
+
     }
 }
