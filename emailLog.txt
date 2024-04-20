@@ -1,0 +1,8 @@
+Date:4/20/2024 7:31:45 PM - Hello, a new User (abc) has been successfully added to the Library. 
+
+Date:4/20/2024 7:31:45 PM - Hello, a new User (Alice) has been successfully added to the Library. 
+
+Date:4/20/2024 7:31:45 PM - Hello, a new Book (The Great Gatsby) has been successfully added to the Library. 
+
+Date:4/20/2024 7:31:45 PM - Hello, a new Book (The Iliad) has been successfully added to the Library. 
+

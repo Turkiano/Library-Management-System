@@ -1,18 +1,25 @@
-﻿using library;
-using library_management.src;
-using library_management.src.Manager;
+﻿
+using library_management;
 
 internal class Program
 {
 
     private static void Main()
     {
-        Library library = new Library("Jarir");
+
+        EmailNotificationService loggerEmail = new(); //call class EmailNotificationService (Email)
+        SMSNotificationService loggerSMS = new();//call class EmailNotificationService (SMS)
+
+
+        Library library = new("Jarir", loggerEmail, loggerSMS);
         User user = new("abc");
         var user1 = new User("Alice", new DateTime(2023, 1, 1));
         var book1 = new Book("The Great Gatsby", new DateTime(2023, 1, 1));
         var book19 = new Book("The Iliad");
         Console.WriteLine(user.getName());
+
+
+
 
         Guid id = user.Id;
         library.AddUser(user);

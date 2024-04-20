@@ -1,6 +1,6 @@
 
 
-namespace library_management.src
+namespace library_management
 {
     public class User : BaseEntity
     {
